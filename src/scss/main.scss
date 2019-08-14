@@ -1,5 +1,6 @@
 @import "_normalize";
 @import "_variables";
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap&subset=devanagari');
 
 
 html {
@@ -11,6 +12,8 @@ html {
 }
 
 body {
-  color: $yellow;
-  background: $violet;
+  color: $big-stone;
+  background: #fff;
+  font-family: 'Poppins', sans-serif;
+  border: 16px solid $big-stone;
 }
