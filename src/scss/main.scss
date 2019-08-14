@@ -1,7 +1,7 @@
 @import "_normalize";
 @import "_variables";
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap&subset=devanagari');
-
+@import "moduls/hero.scss";
 
 html {
   box-sizing: border-box;
@@ -9,6 +9,7 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+  font-size: 16px;
 }
 
 body {
@@ -16,4 +17,7 @@ body {
   background: #fff;
   font-family: 'Poppins', sans-serif;
   border: 16px solid $big-stone;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	
 }
