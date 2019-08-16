@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap&subset=devanagari');
 @import "moduls/hero.scss";
 @import "moduls/skills.scss";
+@import "moduls/projects.scss";
 
 html {
   box-sizing: border-box;
@@ -23,4 +24,9 @@ body {
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	
+}
+
+.conteiner {
+  max-width: 1184px;
+  margin: 0 auto;
 }
