@@ -1,13 +1,13 @@
 .hero {
-  max-width: 1184px;
-  padding: 112px 0 184px;
+  max-width: 1216px;
+  padding: 112px 16px 184px;
   margin: 0 auto;
   &__description {
     color: $grey;
     font-style: normal;
     font-weight: 300;
     font-size: 1.25rem;
-    line-height: 2.25rem;
+    line-height: 2.25rem; 
     max-width: 780px;
     margin-bottom: 3.75rem;
   }

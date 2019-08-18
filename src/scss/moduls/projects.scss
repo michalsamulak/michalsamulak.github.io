@@ -14,8 +14,8 @@
     font-style: normal;
     font-weight: 600;
     margin: 0 auto 1rem;
-    padding: 1rem 0;
-    max-width: 1184px;
+    padding: 1rem 16px;
+    max-width: 1216px;
   }
 }
 
@@ -44,9 +44,9 @@
     line-height: 2rem;
   }
   &__footer {
-      background: $light-grey;
-      padding: 1rem 3rem;
-      text-align: right;
+    background: $light-grey;
+    padding: 1rem 3rem;
+    text-align: right;
   }
   &__link {
     font-weight: 500;
@@ -57,30 +57,30 @@
     display: inline-flex;
     align-items: center;
     & + & {
-        margin-left: 50px;
-        position: relative;
-        &::after {
-            content: '';
-            height: 32px;
-            width: 2px;
-            background: #CBD2D9;
-            display: block;
-            position: absolute;
-            left: -26px;
-            pointer-events: none;
-        }
+      margin-left: 50px;
+      position: relative;
+      &::after {
+        content: "";
+        height: 32px;
+        width: 2px;
+        background: #cbd2d9;
+        display: block;
+        position: absolute;
+        left: -26px;
+        pointer-events: none;
+      }
     }
     &::before {
-        content: '';
-        display: inline-block;
-        margin-right: 8px;
-        width: 24px;
-        height: 24px;
-        background: url('../assets/img/demo.svg') center center no-repeat;
+      content: "";
+      display: inline-block;
+      margin-right: 8px;
+      width: 24px;
+      height: 24px;
+      background: url("../assets/img/demo.svg") center center no-repeat;
     }
-    &--code::before {        
-        background: url('../assets/img/source.svg') center center no-repeat;
-    } 
+    &--code::before {
+      background: url("../assets/img/source.svg") center center no-repeat;
+    }
   }
   &__title {
     font-style: normal;
@@ -89,8 +89,4 @@
     line-height: 2.25rem;
     margin: 0;
   }
-  
-
-
-
 }

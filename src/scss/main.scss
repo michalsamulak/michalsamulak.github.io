@@ -1,6 +1,6 @@
 @import "_normalize";
 @import "_variables";
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap&subset=devanagari');
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap&subset=devanagari");
 @import "moduls/hero.scss";
 @import "moduls/skills.scss";
 @import "moduls/projects.scss";
@@ -10,24 +10,28 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-size: 16px;
-
+  @media (max-width: $mobile) {
+    font-size: 12px;
+  }
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
   color: $big-stone;
   background: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   border: 16px solid $big-stone;
   -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .conteiner {
-  max-width: 1184px;
+  max-width: 1216px;
+  padding: 0 16px;
   margin: 0 auto;
 }
