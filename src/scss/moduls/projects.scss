@@ -50,8 +50,8 @@
   }
   &__link {
     font-weight: 500;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.125rem;
+    line-height: 2rem;
     color: $blue;
     text-decoration: none;
     display: inline-flex;
@@ -61,7 +61,7 @@
       position: relative;
       &::after {
         content: "";
-        height: 32px;
+        height: 2rem;
         width: 2px;
         background: #cbd2d9;
         display: block;
