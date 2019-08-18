@@ -28,6 +28,12 @@ body {
   border: 16px solid $big-stone;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  @media (max-width: $mobile) {
+    border: none;
+
+
+
+  }
 }
 
 .conteiner {
