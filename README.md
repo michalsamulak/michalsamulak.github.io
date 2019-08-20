@@ -1,4 +1,18 @@
-# wtf-gulp-starter
+![Michal Samulak Personal Website](src/assets/img/cover.png)
+
+# Michal Samulak Personal Website
+
+My personal website build during WTF course 🔥.
+
+## Tool & technologies I've used
+
+- Visual Studio Code
+- SASS
+- Fetch API
+- CSS Grid
+...
+
+# built with wtf-gulp-starter
 
 `npm install -g gulp-cli`
 
