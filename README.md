@@ -12,7 +12,7 @@ My personal website build during WTF course 🔥.
 - CSS Grid
 ...
 
-# built with wtf-gulp-starter
+# build with wtf-gulp-starter
 
 `npm install -g gulp-cli`
 
