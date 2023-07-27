@@ -486,7 +486,7 @@ template {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
-  .project__conteiner {
+  .project__container {
     padding: 3rem; }
   .project__description {
     font-style: normal;
